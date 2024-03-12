@@ -1,161 +1,462 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="" type="image/x-icon">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--=============== BOXICONS ===============-->
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="" type="image/x-icon">
 
-        <!--=============== SWIPER CSS ===============-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  <!--=============== BOXICONS ===============-->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="assets/css/style.css">
+  <!--=============== SWIPER CSS ===============-->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
-        <title> Portofolio Bimss </title>
-    </head>
-    <body>
-        <!--=============== HEADER ===============-->
-        <header class="header" id="header">
-          <nav class="nav container">
-            <a href="#" class="nav__logo">Bimss</a>
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/style.css">
 
-            <!-- Menu -->
-            <div class="nav__menu">
-              <ul class="nav__list">
-                <li class="nav__item">
+  <title> Portofolio Bimss </title>
+</head>
 
-                  <!-- Home -->
-                  <a href="#home" class="nav__link active-link">
-                    <i class='bx bx-home'></i>
-                  </a>
+<body>
+  <!--=============== HEADER ===============-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Bimss</a>
+
+      <!-- Menu -->
+      <div class="nav__menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+
+            <!-- Home -->
+            <a href="#home" class="nav__link active-link">
+              <i class='bx bx-home'></i>
+            </a>
+          </li>
+
+          <!-- About -->
+          <li class="nav__item">
+            <a href="#about" class="nav__link">
+              <i class='bx bx-user'></i>
+            </a>
+          </li>
+
+          <!-- Skill -->
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">
+              <i class='bx bx-book'></i>
+            </a>
+          </li>
+
+          <!-- Work Experience -->
+          <li class="nav__item">
+            <a href="#work" class="nav__link">
+              <i class='bx bx-briefcase'></i>
+            </a>
+
+            <!-- Message -->
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">
+              <i class='bx bx-message-detail'></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Theme Change Button -->
+      <i class='bx bx-moon change-theme' id="theme-button"></i>
+    </nav>
+  </header>
+
+  <!--=============== MAIN ===============-->
+  <main class="main">
+    <!--=============== HOME ===============-->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__data">
+          <span class="home__greeting">Hello, I'm</span>
+          <h1 class="home__name">Bima Prasetio</h1>
+          <h3 class="home__education">Front-End Web, Mobile Development</h3>
+
+          <div class="home__buttons">
+            <a download="" href="assets/pdf/Resume-Bima Prasetio.pdf" class="button button--ghost">
+              Download CV
+            </a>
+            <a href="#about" class="button">About Me</a>
+          </div>
+        </div>
+
+        <div class="home__handle">
+          <img src="assets/img/3d-avatar.png" alt="" class="home__img">
+        </div>
+
+        <div class="home__social">
+          <a href="https://www.linkedin.com/in/bimamib16/" class="home__social-link">
+            <i class='bx bxl-linkedin-square'></i>
+          </a>
+          <a href="https://www.github.com/bimamib" class="home__social-link">
+            <i class='bx bxl-github'></i>
+          </a>
+          <a href="https://www.instagram.com/bimamib_16" class="home__social-link">
+            <i class='bx bxl-instagram-alt'></i>
+          </a>
+        </div>
+
+        <a href="#about" class="home__scroll">
+          <i class='bx bx-mouse-alt home__scroll-icon'></i>
+          <span class="home__scroll-name">Scroll Down</span>
+        </a>
+      </div>
+    </section>
+
+    <!--=============== ABOUT ===============-->
+    <section class="about section" id="about">
+      <span class="section__subtitle">My Intro</span>
+      <h2 class="section__title">About Me</h2>
+
+      <div class="about__container container grid">
+        <img src="assets/img/bimaa.jpg" alt="" class="about__img">
+
+        <div class="about__data">
+          <div class="about__info">
+            <div class="about__box">
+              <i class='bx bx-award about__icon'></i>
+              <h3 class="about__title">Experience</h3>
+              <span class="about__subtitle">1+ Years Working</span>
+            </div>
+
+            <div class="about__box">
+              <i class='bx bx-briefcase-alt about__icon'></i>
+              <h3 class="about__title">Completed</h3>
+              <span class="about__subtitle">10 + Project</span>
+            </div>
+
+            <div class="about__box">
+              <i class='bx bx-support about__icon'></i>
+              <h3 class="about__title">Support</h3>
+              <span class="about__subtitle">Online 24/7</span>
+            </div>
+          </div>
+
+          <p class="about__description">
+            Saya adalah mahasiswa aktif di Universitas Muhammadiyah Prof. Dr. Hamka, Program Studi Teknik Informatika.
+            Saya mempunyai skill komunikasi yang baik, saya mampu mengoperasikan Microsoft Office. Pengalaman yang
+            saya miliki ini membuat saya mampu untuk bekerja sama dengan tim. Saya mencari peluang kerja dan magang
+            untuk mengembangkan softskill dan hardskill saya.
+          </p>
+
+          <a href="#contact" class="button">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== EDUCATION ===============-->
+    <section class="skills section" id="skills">
+      <span class="section__subtitle">My Abilities</span>
+      <h2 class="section__title">My Education</h2>
+
+      <div class="education__container container grid">
+
+        <!-- SEKOLAH SMA -->
+        <div class="education__content">
+          <h3 class="education__title">IPA</h3>
+
+          <div class="education__group">
+            <h3 class="education__name">SMA PGRI 4 Jakarta</h3>
+            <span class="education__level">2017 - 2020</span>
+          </div>
+
+          <!-- KULIAH -->
+          <h3 class="education__title">INFORMATIC ENGINEERING</h3>
+
+          <div class="education__group">
+            <h3 class="education__name">Universitas Muhammadiyah Prof. Dr. Hamka</h3>
+            <span class="education__level">2020 - Present</span>
+          </div>
+
+          <!-- DICODING ACADEMY -->
+          <h3 class="education__title">DICODING</h3>
+
+          <div class="education__group">
+            <h3 class="education__name">Pengembang Front-End Web dan Back-End</h3>
+            <span class="education__level">Januari 2023 - Juli 2023</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== SKILLS ===============-->
+    <section class="skills section" id="skills">
+      <h2 class="section__title">My Experience</h2>
+
+      <div class="skills__container container grid">
+
+        <!-- Skills Front-End Web -->
+        <div class="skills__content">
+          <h3 class="skills__title">Front-End Web Development</h3>
+
+          <div class="skills__box">
+
+            <!-- Skills Group 1 -->
+            <div class="skills__group">
+
+              <!-- Skills Data  1-->
+              <div class="skills__data">
+                <svg class="iconify" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 48 48"><defs><mask id="ipSHtmlFive0"><g fill="none" stroke-width="4"><path fill="#fff" stroke="#fff" d="M37.804 5H10.196a2 2 0 0 0-1.991 2.187l2.688 28.666a2 2 0 0 0 1.153 1.63l11.116 5.13a2 2 0 0 0 1.676 0l11.116-5.13a2 2 0 0 0 1.154-1.63l2.687-28.666A2 2 0 0 0 37.804 5Z"/><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M32 12H16l1 9h14l-1 11l-6 3l-6-3l-.5-5"/></g></mask></defs><path fill="currentColor" d="M0 0h48v48H0z" mask="url(#ipSHtmlFive0)"/>
+                </svg>
+
+                <div>
+                  <h3 class="skills__name">HTML</h3>
+                  <span class="skills__level">Intermediate</span>
+                </div>
+              </div>
+
+              <!-- Skills Data 2 -->
+              <div class="skills__data">
+                <svg class="iconify" xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" viewBox="0 0 24 24"><path fill="currentColor" d="m3 2l1.6 17.8L12 22l7.5-2.2L21 2zm13.3 14.7L12 18l-4.3-1.2l-.3-3.1h2.1l.2 1.5l2.3.6l2.3-.6l.3-3H7.3l-.2-2h7.7l.1-2H7l-.2-2h10.6l-1 10.6Z"/></svg>
+
+                <div>
+                  <h3 class="skills__name">CSS</h3>
+                  <span class="skills__level">Intermediate</span>
+                </div>
+              </div>
+
+              <!-- Skills Data 3 -->
+              <div class="skills__data">
+                <svg class="iconify" xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" viewBox="0 0 24 24"><path fill="currentColor" d="M3 3h18v18H3zm16.525 13.707c-.131-.821-.666-1.511-2.252-2.155c-.552-.259-1.165-.438-1.349-.854c-.068-.248-.078-.382-.034-.529c.113-.484.687-.629 1.137-.495c.293.09.563.315.732.676c.775-.507.775-.507 1.316-.844c-.203-.314-.304-.451-.439-.586c-.473-.528-1.103-.798-2.126-.775l-.528.067c-.507.124-.991.395-1.283.754c-.855.968-.608 2.655.427 3.354c1.023.765 2.521.933 2.712 1.653c.18.878-.652 1.159-1.475 1.058c-.607-.136-.945-.439-1.316-1.002l-1.372.788c.157.359.337.517.607.832c1.305 1.316 4.568 1.249 5.153-.754c.021-.067.18-.528.056-1.237zm-6.737-5.434h-1.686c0 1.453-.007 2.898-.007 4.354c0 .924.047 1.772-.104 2.033c-.247.517-.886.451-1.175.359c-.297-.146-.448-.349-.623-.641c-.047-.078-.082-.146-.095-.146l-1.368.844c.229.473.563.879.994 1.137c.641.383 1.502.507 2.404.305c.588-.17 1.095-.519 1.358-1.059c.384-.697.302-1.553.299-2.509c.008-1.541 0-3.083 0-4.635z"/></svg>
+
+                <div>
+                  <h3 class="skills__name">Java Script</h3>
+                  <span class="skills__level">Intermediate</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skills Group 2 -->
+            <div class="skills__group">
+
+              <!-- Skills Data 1 -->
+              <div class="skills__data">
+                <svg class="iconify" xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" viewBox="0 0 24 24"><path fill="currentColor" d="M12 6c-2.67 0-4.33 1.33-5 4c1-1.33 2.17-1.83 3.5-1.5c.76.19 1.31.74 1.91 1.35c.98 1 2.09 2.15 4.59 2.15c2.67 0 4.33-1.33 5-4c-1 1.33-2.17 1.83-3.5 1.5c-.76-.19-1.3-.74-1.91-1.35C15.61 7.15 14.5 6 12 6m-5 6c-2.67 0-4.33 1.33-5 4c1-1.33 2.17-1.83 3.5-1.5c.76.19 1.3.74 1.91 1.35C8.39 16.85 9.5 18 12 18c2.67 0 4.33-1.33 5-4c-1 1.33-2.17 1.83-3.5 1.5c-.76-.19-1.3-.74-1.91-1.35C10.61 13.15 9.5 12 7 12"/></svg>
+
+                <div>
+                  <h3 class="skills__name">Tailwind</h3>
+                  <span class="skills__level">Basic</span>
+                </div>
+              </div>
+
+              <!-- Skills Data 2 -->
+              <div class="skills__data">
+                <svg class="iconify" xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg>
+
+                <div>
+                  <h3 class="skills__name">Git</h3>
+                  <span class="skills__level">Fundamental</span>
+                </div>
+              </div>
+
+              <!-- Skills Data 3 -->
+              <div class="skills__data">
+                <svg class="iconify" xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" viewBox="0 0 512 512"><path fill="currentColor" d="M189.35 120.484v58.865L64.59 236.453L189.35 295.6v57.685L0 263.456v-52.543zm128.845 53.29c0-15.04-13.83-24.491-24.833-16.971c-11.003 7.52-11.003 26.422 0 33.943c11.004 7.52 24.833-1.932 24.833-16.972m-45.12 46.211c-37.312-20.454-37.312-71.868 0-92.323c37.313-20.454 84.207 5.253 84.207 46.162s-46.894 66.616-84.206 46.161m199.838 119.927c0-15.04-13.83-24.491-24.833-16.971c-11.003 7.52-11.003 26.422 0 33.942c11.004 7.52 24.833-1.93 24.833-16.97m-45.12 46.211c-37.312-20.454-37.312-71.868 0-92.323S512 299.053 512 339.962s-46.894 66.616-84.206 46.161m-114.654 7.179l194.41-274.604h-66.43L243.47 393.302z"/></svg>
+
+                <div>
+                  <h3 class="skills__name">EJS</h3>
+                  <span class="skills__level">Basic</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skills Mobile Development -->
+        <div class="skills__content">
+          <h3 class="skills__title">Mobile Development</h3>
+
+          <div class="skills__box">
+
+            <!-- Skills Group 1 -->
+            <div class="skills__group">
+
+              <!-- Skills Data  1-->
+              <div class="skills__data">
+                <svg class="iconify" xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" viewBox="0 0 24 24"><path fill="currentColor" d="M24 24H0V0h24L12 12Z"/></svg>
+
+                <div>
+                  <h3 class="skills__name">Kotlin</h3>
+                  <span class="skills__level">Intermediate</span>
+                </div>
+              </div>
+
+              <!-- Skills Data 2 -->
+              <div class="skills__data">
+                <svg class="iconify" xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" viewBox="0 0 24 24"><path fill="currentColor" d="M12.135.003a2.577 2.577 0 0 0-1.42.344L2.55 5.06a2.577 2.577 0 0 0-.953.967l3.957 2.17a1.765 1.765 0 0 1 .603-.588l4.951-2.86a1.761 1.761 0 0 1 1.76 0l4.951 2.86a1.753 1.753 0 0 1 .526.46l3.921-2.265a2.577 2.577 0 0 0-.816-.744L13.291.347a2.577 2.577 0 0 0-1.152-.34Zm-.145 4.912a1.36 1.36 0 0 0-.68.182L6.36 7.953a1.345 1.345 0 0 0-.454.435l1.92 1.055a1.05 1.05 0 0 1 .31-.275l3.34-1.928a1.054 1.054 0 0 1 1.051 0l3.336 1.928a1.066 1.066 0 0 1 .238.199l.018-.01l-.002-.002l1.877-1.08a1.353 1.353 0 0 0-.373-.322l-4.95-2.86a1.357 1.357 0 0 0-.68-.178Zm10.432 1.149l-3.92 2.26a1.757 1.757 0 0 1 .2.812v5.715c0 .627-.332 1.21-.88 1.528l-4.95 2.86a1.761 1.761 0 0 1-.64.214v4.524a2.577 2.577 0 0 0 1.059-.313l8.162-4.713a2.577 2.577 0 0 0 1.289-2.23V7.297a2.577 2.577 0 0 0-.318-1.228Zm-20.937.238a2.577 2.577 0 0 0-.227.99v9.43c0 .918.491 1.767 1.293 2.229l8.162 4.713a2.57 2.57 0 0 0 1.225.336v-4.531a1.761 1.761 0 0 1-.833-.235L6.156 16.38a1.765 1.765 0 0 1-.877-1.528V9.136a1.776 1.776 0 0 1 .131-.676Zm16.67 2.223l-1.89 1.092a1.058 1.058 0 0 1 .124.46v3.856c0 .378-.2.72-.526.907l-3.336 1.93a1.04 1.04 0 0 1-.295.107v2.17c.152-.027.304-.078.44-.157l4.949-2.859a1.36 1.36 0 0 0 .68-1.18V9.136a1.36 1.36 0 0 0-.147-.607Zm-12.387.13a1.36 1.36 0 0 0-.088.481v5.715a1.36 1.36 0 0 0 .68 1.18l4.95 2.86c.194.112.412.166.627.177v-2.174a1.054 1.054 0 0 1-.46-.123L8.14 14.843a1.054 1.054 0 0 1-.532-.908v-3.853a.99.99 0 0 1 .077-.38l-.034-.013z"/></svg>
+
+                <div>
+                  <h3 class="skills__name">Jetpack Compose</h3>
+                  <span class="skills__level">Basic</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== SERVICES ===============-->
+    <section class="services section">
+      <span class="section__subtitle">My Services</span>
+      <h2 class="section__title">What I Offer</h2>
+
+      <div class="services__container container grid">
+        <div class="services__card">
+          <h3 class="services__title">UI/UX <br> Designer</h3>
+
+          <span class="services__button">
+            See More <i class='bx bx-chevrons-right services__icon'></i>
+          </span>
+
+          <div class="services__modal">
+            <div class="services__modal-content">
+              <i class='bx bx-x services__modal-close' ></i>
+
+              <h3 class="services__modal-title">UI/UX Designer</h3>
+              <p class="services__modal-description">
+                I can design beautiful user interface using Figma
+              </p>
+
+              <ul class="services__modal-list">
+                <li class="services__modal-item">
+                  <svg class="services__modal-icon" xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 12h12"/></svg>
+                  <p class="services__modal-info">
+                    Design Web Page or Android using Figma
+                  </p>
                 </li>
 
-                <!-- About -->
-                <li class="nav__item">
-                  <a href="#about" class="nav__link">
-                    <i class='bx bx-user'></i>
-                  </a>
+                <li class="services__modal-item">
+                  <svg class="services__modal-icon" xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 12h12"/></svg>
+                  <p class="services__modal-info">
+                    I Create Design UI/UX for your company
+                  </p>
                 </li>
 
-                <!-- Skill -->
-                <li class="nav__item">
-                  <a href="#skills" class="nav__link">
-                    <i class='bx bx-book'></i>
-                  </a>
-                </li>
-
-                <!-- Work Experience -->
-                <li class="nav__item">
-                  <a href="#work" class="nav__link">
-                    <i class='bx bx-briefcase' ></i>
-                  </a>
-
-                <!-- Message -->
-                <li class="nav__item">
-                  <a href="#contact" class="nav__link">
-                    <i class='bx bx-message-detail'></i>
-                  </a>
+                <li class="services__modal-item">
+                  <svg class="services__modal-icon" xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 12h12"/></svg>
+                  <p class="services__modal-info">
+                    Design and Mockup of product
+                  </p>
                 </li>
               </ul>
             </div>
+          </div>
+        </div>
 
-            <!-- Theme Change Button -->
-            <i class='bx bx-moon change-theme' id="theme-button"></i>
-          </nav>
-        </header>
+        <div class="services__card">
+          <h3 class="services__title">Front-End Web <br> Development</h3>
 
-        <!--=============== MAIN ===============-->
-        <main class="main">
-            <!--=============== HOME ===============-->
-            <section class="home section" id="home">
-              <div class="home__container container grid">
-                <div class="home__data">
-                  <span class="home__greeting">Hello, I'm</span>
-                  <h1 class="home__name">Bima Prasetio</h1>
-                  <h3 class="home__education">Front-End Web, Mobile Development</h3>
+          <span class="services__button">
+            See More <i class='bx bx-chevrons-right services__icon'></i>
+          </span>
 
-                  <div class="home__buttons">
-                    <a download="" href="assets/pdf/Resume-Bima Prasetio.pdf" class="button button--ghost">
-                      Download CV
-                    </a>
-                    <a href="#about" class="button">About Me</a>
-                  </div>
-                </div>
+          <div class="services__modal">
+            <div class="services__modal-content">
+              <i class='bx bx-x services__modal-close' ></i>
 
-                <div class="home__handle">
-                  <img src="assets/img/bimsss.png" alt="" class="home__img">
-                </div>
+              <h3 class="services__modal-title">Front-End Web Development</h3>
+              <p class="services__modal-description">
+                I Create Front-End Web DevelopmentI can build a beautiful and scalable SPA using HTML, HTMX, TailwindCSS, CSS, JS and can use any of the following frameworks EJS, Vue, Nunjucks
+              </p>
 
-                <div class="home__social">
-                  <a href="https://www.linkedin.com/in/bimamib16/" class="home__social-link">
-                    <i class='bx bxl-linkedin-square' ></i>
-                  </a>
-                  <a href="https://www.github.com/bimamib" class="home__social-link">
-                    <i class='bx bxl-github'></i>
-                  </a>
-                  <a href="https://www.instagram.com/bimamib_16" class="home__social-link">
-                    <i class='bx bxl-instagram-alt' ></i>
-                  </a>
-                </div>
+              <ul class="services__modal-list">
+                <li class="services__modal-item">
+                  <svg class="services__modal-icon" xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 12h12"/></svg>
+                  <p class="services__modal-info">
+                    I create Front-End Web Development
+                  </p>
+                </li>
 
-                <a href="#about" class="home__scroll">
-                  <i class='bx bx-mouse-alt home__scroll-icon' ></i>
-                  <span class="home__scroll-name">Scroll Down</span>
-                </a>
-              </div>
-            </section>
-            
-            <!--=============== ABOUT ===============-->
-            <section class="about section" id="about">
-                
-            </section>
+                <li class="services__modal-item">
+                  <svg class="services__modal-icon" xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 12h12"/></svg>
+                  <p class="services__modal-info">
+                    Web Native
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-            <!--=============== SKILLS ===============-->
-            <section class="skills section" id="skills">
-                
-            </section>
+        <div class="services__card">
+          <h3 class="services__title">Mobile <br> Development</h3>
 
-            <!--=============== SERVICES ===============-->
-            <section class="services section">
-                
-            </section>
+          <span class="services__button">
+            See More <i class='bx bx-chevrons-right services__icon'></i>
+          </span>
 
-            <!--=============== WORK ===============-->
-            <section class="work section" id="work">
-                
-            </section>
+          <div class="services__modal">
+            <div class="services__modal-content">
+              <i class='bx bx-x services__modal-close' ></i>
 
-            <!--=============== TESTIMONIALS ===============-->
-            <section class="testimonial section">
-                
-            </section>
+              <h3 class="services__modal-title">Mobile Development</h3>
+              <p class="services__modal-description">
+                I Create Mobile Development using Kotlin, Jetpack Compose
+              </p>
 
-            <!--=============== CONTACT ===============-->
-            <section class="contact section" id="contact">
-                
-            </section>
-        </main>
+              <ul class="services__modal-list">
+                <li class="services__modal-item">
+                  <svg class="services__modal-icon" xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 12h12"/></svg>
+                  <p class="services__modal-info">
+                    I can create Mobile Development
+                  </p>
+                </li>
 
-        <!--=============== FOOTER ===============-->
-        <footer class="footer">
-            
-        </footer>
+                <li class="services__modal-item">
+                  <svg class="services__modal-icon" xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 12h12"/></svg>
+                  <p class="services__modal-info">
+                    Android Kotlin and Jetpack Compose
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <!--=============== SCROLLREVEAL ===============-->
-        <script src="assets/js/scrollreveal.min.js"></script>
+    <!--=============== WORK ===============-->
+    <section class="work section" id="work">
 
-        <!--=============== SWIPER JS ===============-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
+    </section>
 
-        <!--=============== MIXITUP FILTER ===============-->
-        <script src="assets/js/mixitup.js"></script>
+    <!--=============== TESTIMONIALS ===============-->
+    <section class="testimonial section">
 
-        <!--=============== MAIN JS ===============-->
-        <script src="assets/js/main.js"></script>
-    </body>
+    </section>
+
+    <!--=============== CONTACT ===============-->
+    <section class="contact section" id="contact">
+
+    </section>
+  </main>
+
+  <!--=============== FOOTER ===============-->
+  <footer class="footer">
+
+  </footer>
+
+  <!--=============== SCROLLREVEAL ===============-->
+  <script src="assets/js/scrollreveal.min.js"></script>
+
+  <!--=============== SWIPER JS ===============-->
+  <script src="assets/js/swiper-bundle.min.js"></script>
+
+  <!--=============== MIXITUP FILTER ===============-->
+  <script src="assets/js/mixitup.js"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+</body>
+
 </html>
